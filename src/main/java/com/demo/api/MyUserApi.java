@@ -1,5 +1,6 @@
 package com.demo.api;
-    import com.demo.model.User;
+
+import com.demo.model.User;
 import javax.servlet.ServletException;
 
 public interface MyUserApi {
