@@ -22,8 +22,9 @@ import javax.servlet.ServletException;
 @Path("/test/v1/user")
 public class MyUserService {
 
-@Autowired
-private MyUserApi delegateApi;
+    @Autowired
+    private MyUserApi delegateApi;
+    
     @GET
     @Path("/{id}")
     @Consumes({ "application/json" })
